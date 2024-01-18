@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> OneSignal Push Notifications </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button
+    expand="block"
+    class="ion-margin-bottom"
+    (click)="createOneSignalUser()"
+    >Create Onesignal User</ion-button
+  >
+
+  <ion-button
+    expand="block"
+    class="ion-margin-bottom"
+    (click)="deleteOneSignalUser()"
+    >Delete Onesignal User</ion-button
+  >
+
+  <ion-button
+    expand="block"
+    class="ion-margin-bottom"
+    (click)="sendNotificationtoSpecificDevice()"
+  >
+    <ion-text> Send notification to specific device </ion-text>
+  </ion-button>
+
+  <!-- <ion-button
+    expand="block"
+    class="ion-margin-bottom"
+    (click)="sendNotificationtoSpecificDeviceFromWeb()"
+  >
+    <ion-text> Send notification to specific devices from web </ion-text>
+  </ion-button> -->
+
+  <ion-button expand="block" (click)="sendNotificationtoAllUsers()">
+    <ion-text> Send notification to all devices </ion-text>
+  </ion-button>
+</ion-content>

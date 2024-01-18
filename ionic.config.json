@@ -1,0 +1,7 @@
+{
+  "name": "onesignal-push-notification",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

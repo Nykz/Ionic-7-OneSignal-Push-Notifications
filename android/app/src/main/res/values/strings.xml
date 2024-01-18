@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">onesignal-push-notification</string>
+    <string name="title_activity_main">onesignal-push-notification</string>
+    <string name="package_name">com.technyks.testOneSignalNotifications</string>
+    <string name="custom_url_scheme">com.technyks.testOneSignalNotifications</string>
+</resources>
