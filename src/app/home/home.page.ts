@@ -160,7 +160,10 @@ export class HomePage {
           'This is a test message',
           'Test message',
           { type: 'user1' },
-          ['coHcnUkQifwJunY37EgT']
+          [
+            'coHcnUkQifwJunY37EgT',
+            'eATuiZAy7iJ5IE1YLxvK'
+          ]
         )
       );
     } catch (e) {
